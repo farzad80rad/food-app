@@ -1,0 +1,22 @@
+.details-container {
+  width: 1000px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-template-rows: 400px 1fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  line-height: 2;
+}
+
+.image {
+  grid-area: 1 / 1 / 2 / 2;
+  background-size: cover;
+}
+.details {
+  grid-area: 1 / 2 / 2 / 3;
+  position: relative;
+}
+.options {
+  grid-area: 2 / 1 / 3 / 2;
+}
